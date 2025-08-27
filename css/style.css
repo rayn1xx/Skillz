@@ -1,0 +1,765 @@
+body{
+    font-family: "Source Sans 3", sans-serif;
+    background-color: rgba(35, 35, 59, 1);
+}
+
+div.UpperGreen{
+    height: 43px;
+    background-color: rgba(87, 217, 177, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #1c1c33;
+    vertical-align: auto;
+}
+
+div.UpperNavigation{
+    width: 100%;
+    height: 105px;
+    background-color: rgba(28, 28, 51, 1);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 52px;
+}
+
+.logo{
+    position: relative;
+    padding: 30px;
+    padding-right: 271px;
+
+}
+.UpperHorisontalNavigation{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #f6f6f8;
+    transition: .3s;
+}
+
+.UpperHorisontalNavigation:hover{
+    color: rgb(89, 239, 146);
+    text-shadow: 0 0 2px rgb(89, 239, 146);
+}
+
+
+.UpperHorisontalNavigation__FreeWorkshops {
+    margin-right: 32px;
+}
+.UpperHorisontalNavigation__Blog {
+    margin-right: 32px;
+}
+.UpperHorisontalNavigation__Courses {
+    margin-right: 32px;
+}
+.UpperHorisontalNavigation__About {
+    margin-right: 32px;
+}
+.UpperHorisontalNavigation__Contact {
+}
+
+.busket_back {
+    content: "";
+    background: url("../images/busket.svg");
+    width: 56px;
+    height: 56px;
+    top: 50%;
+    margin-right: 82px;
+    margin-top: 24px;
+    margin-left: 280px;
+    border-radius: 50%;
+}
+
+.busket_back:hover{
+    box-shadow: 3px 2px 50px rgb(89, 239, 146);
+}
+
+
+/* ______________________________________ */
+
+.main_container {
+    margin-left: 82px;
+    margin-top: 112px;
+}
+.main_info_image{
+    display: flex;
+}
+.main_info {
+    display: flex;
+    flex-direction: column;
+}
+.hadik {
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    position: relative
+}
+
+.hadik::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 143px;
+    height: 2px;
+    background-color: #57d9a6;
+}
+
+.big_text {
+    width: 509px;
+    height: 121px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 110%;
+    color: #f6f6f8;
+    margin-top: 60px;
+}
+.middle_text {
+    width: 548px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #f6f6f8;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.author {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #b2b2bf;
+    padding-left: 3px;
+}
+.greenbutton {
+    margin-top: 48px;
+    border-radius: 4px;
+    width: 160px;
+    height: 59px;
+    background: #57d9a6;
+}
+.learning_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c1c33;
+}
+
+.main_image {
+    content: "";
+    display: block;
+    margin-right: 24px;
+}
+/* ______________________________________ */
+.main2 {
+    display: flex;
+    flex-direction: column;
+}
+div.main2_text {
+    width: 345px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 110%;
+    color: #f6f6f8;
+    margin-left: 466px;
+    position: relative;
+}
+.main2_text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 150px;
+    height: 2px;
+    background-color: #57d9a6;
+    margin-left: 97px;
+}
+
+.main2_maintext {
+    margin-top: 50px;
+    margin-left: 316px;
+    width: 644px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #f6f6f8;
+}
+.all_view {
+    margin-left: 530px;
+    margin-top: 46px;
+    width: 216px;
+    height: 59px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c1c33;
+}
+
+.plashki_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 1276px;
+    height: 429px;
+}
+.plashka1 {
+    display: flex;
+    flex-direction: column;
+}
+.plashka2 {
+    display: flex;
+    flex-direction: column;
+}
+.plashka3 {
+    display: flex;
+    flex-direction: column;
+}
+.photo {
+    width: 393px;
+    height: 197px;
+}
+.description {
+    width: 393px;
+    height: 224px;
+    background-color: white;
+}
+.description_name {
+    margin-top: 22px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    width: 280px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1c1c33;
+}
+.description_autor {
+    margin-left: 24px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #4e4e65;
+}
+.description_price {
+    margin-left: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 123%;
+    color: #1c1c33;
+}
+.description_price2 {
+    margin-left: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 123%;
+    color: #b2b2bf;
+    display: inline-block;
+}
+.description_price3 {
+    margin-left: 8px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 123%;
+    color: #1c1c33;
+    display: inline-block;
+}
+.description_learning {
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #57d9a6;
+}
+
+/* ____________________ */
+
+.main3 {
+    margin-left: 0px;
+    display: flex;    
+    margin-top: 144px;
+}
+.PhotoOfWoman {
+    width: 720px;
+    height: 664px;
+}
+.info_main3 {
+    background-color: #1c1c33;;
+}
+.title_main3 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #f6f6f8;
+    padding-top: 142px;
+    padding-left: 48px;
+    position: relative;
+}
+
+.title_main3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 150px;
+    height: 2px;
+    background-color: #57d9a6;
+    margin-left: 48px;
+}
+.planet_main3 {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #f6f6f8;
+    margin-left: 48px;
+}
+.Contact {
+    width: 160px;
+    height: 59px;
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c1c33;
+}
+
+
+/* ________________________________________ */
+
+.main4 {
+    padding-top: 144px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 144px;
+    height: 965px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.BoxWithout {
+
+}
+.BoxWithout_title {
+    text-align: left;
+    margin-left: 423px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #1c1c33;
+    position: relative;
+}
+
+.BoxWithout_title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 150px;
+    height: 2px;
+    background-color: #57d9a6;
+    margin-left: 188px;
+}
+.BoxWithout_text {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #4e4e65;
+    width: 644px;
+    height: 99px;
+    margin-left: 364px;
+}
+.BoxWithout_button {
+    margin-left: 563px;
+    margin-top: 46px;
+    width: 247px;
+    height: 59px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c1c33;
+}
+.BoxWithout_box__plashki {
+    display: flex;
+    justify-content: space-between;
+    width: 1276px;
+    height: 272px;
+    margin-top: 82px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.BoxWithout_plashka{
+    width: 393px;
+    height: 270px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(228, 228, 229, 1);
+}
+
+.BoxWithout_plashka_title {
+    margin-top: 22px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1c1c33;
+}
+
+.BoxWithout_plaska_text {
+    margin-top: 11px;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4e4e65;
+}
+.BoxWithout_plahka_lerning {
+    margin-top: 28px;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #57d9a6;
+}
+
+/* _______________________________ */
+
+.greenblock {
+    height: 506px;
+    background-color: #57d9a6;
+}
+
+.stars{
+    padding-top: 80px;
+    margin-left: 210px;
+}
+
+.greenblock_text {
+    width: 1006px;
+    height: 126px;
+    margin-left: 217px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #1c1c33;
+    margin-top: 43px;
+
+}
+.greenblock_author {
+    margin-top: 37px;
+    margin-left: 627px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4e4e65;
+    position: relative;
+}
+
+
+.greenblock_author::before,
+.greenblock_author::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+/* первая точка (левая) */
+.greenblock_author::before {
+    left: 78px;
+    background-color: #222;  /* тёмный круг */
+}
+
+/* вторая точка (правая) */
+.greenblock_author::after {
+    left: calc(16px + 8px + 78px);   /* ширина точки + желаемый отступ (8px) */
+    background-color: #3fa378;/* зелёный круг */
+}
+
+
+
+/* __________________________ */
+.WomanWithInfo {
+    display: flex;
+    width: 1440px;
+    height: 822px;
+}
+.photoWoman{
+    margin-top: 143px;
+    margin-left: 82px;
+}
+.Woman_text{
+    margin-top: 143px;
+    margin-left: 48px;
+    width: 614px;
+    height: 534px;
+}
+.Woman_text_title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #f6f6f8;
+    margin-top: 119px;
+    position: relative;
+}
+
+.Woman_text_title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 150px;
+    height: 2px;
+    background-color: #57d9a6;
+}
+
+.Woman_text_text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #f6f6f8;
+    margin-top: 50px;
+    width: 548px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #f6f6f8;
+}
+
+.Womanbutton {
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c1c33;
+}
+
+/* ______________________________ */
+
+.main5{
+    background-color: white;
+    width: calc(1372px + 68px);
+    height: calc(798px + 288px);
+    padding-top: 144px;
+    padding-bottom: 144px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.plashki_block5{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.main5_maintext{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #4e4e65;
+}
+
+div.main5_text{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    color: #1c1c33;
+}
+
+/* ----------------------------------------------------- */
+
+.different {
+    width: 1440px;    /* по вкусу */
+    height: 360;   /* по вкусу */
+    background: linear-gradient(
+        to bottom,
+        /* от 0 до 50% — красный */
+        white 0%,
+        white 50%,
+        /* от 50% до 100% — синий */
+        rgba(28, 28, 51, 1) 50%,
+        rgba(28, 28, 51, 1) 100%
+    );
+}
+.greentext{
+    width: 1276px;
+    height: 347px;
+    background-color: #57d9a6;
+    margin-left: 82px;
+}
+.cyter{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    color: #1c1c33;
+    margin-left: 226px;
+    margin-top: 78px;
+}
+.greenform{
+    margin-left: 372px;
+    margin-top: 58px;
+    width: 532px;
+    height: 64px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    gap: 160px;
+}
+.butinput{
+    border: 1px solid #1c1c33;
+    border-radius: 4px;
+    width: 400px;
+    height: 64px;
+    position: absolute;
+    bottom: 0;    /* отступ от низа контейнера */
+    right: 0;     /* отступ от правого края */
+    margin: 0 16px 8px 0;
+    background-color: #57d9a6;
+
+
+}
+
+.butinput::placeholder{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 264%;
+    text-align: center;
+    color: #1c1c33;
+    text-align: left;
+    text-indent: 18px;
+    margin-top: 10px;
+    line-height: 64px; 
+}
+.butsub{
+    border-radius: 4px;
+    width: 116px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 264%;
+    text-align: center;
+    color: #57d9a6;
+    background: #1c1c33;
+    height: 64px;
+    position: absolute;
+    bottom: 0;    /* отступ от низа контейнера */
+    right: 0px;     /* отступ от правого края */
+    margin: 0 16px 8px 0;
+    margin-left: 20px;
+
+}
+.footer_conteiner {
+}
+.logo2 {
+    margin-top: 144px;
+    margin-left: 82px;
+    display: block;
+    width: 135px;
+    height: 44px;
+    background: url("../images/logo.svg");
+}
+.first {
+    margin-left: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 283px;
+    height: 286px;
+
+}
+.firdt_column {
+    display: inline;
+}
+.name1 {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f6f6f8;
+}
+.kolonki{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+.second {
+}
+.second_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.name2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    margin-top: 23px;
+}
+
+.name2:nth-child(1){
+    margin-top: 0;
+}
+.name1:nth-child(1){
+    margin-top: 0;
+}
+
+.social {
+}
+.naming {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #f6f6f8;
+    margin-left: 5px;
+}
+.seti {
+    margin-top: 38px;
+}
